@@ -16,3 +16,11 @@ while (contador <9) {
     contador = contador + 1;
     console.log(contador);
 }
+// Pom ----------------------------------------
+function tocaSomPom () {
+document.querySelector('#som_tecla_pom').play();
+}
+
+const listaDeTeclas = document.querySelectorAll('.tecla');
+
+listaDeTeclas[0].onclick = tocaSomPom;
